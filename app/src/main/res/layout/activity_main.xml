@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+
+    <Button
+        android:id="@+id/customDialog"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomDialog"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="32sp"
+        android:layout_below="@+id/customDialog"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="32sp"
+        android:layout_below="@+id/nameText"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"/>
+
+
+
+
+</RelativeLayout>
